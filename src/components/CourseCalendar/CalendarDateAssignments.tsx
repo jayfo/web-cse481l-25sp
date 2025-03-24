@@ -1,10 +1,7 @@
 import * as React from "react";
 
-import { CalendarItemAdditionalResourceReadings } from "@/components/CourseCalendar/CalendarItemAdditionalResourceReadings";
 import { CalendarItemAssignments } from "@/components/CourseCalendar/CalendarItemAssignments";
-import { CalendarItemContentNonstandard } from "@/components/CourseCalendar/CalendarItemContentNonstandard";
 import { CalendarItemGuests } from "@/components/CourseCalendar/CalendarItemGuests";
-import { CalendarItemReadingsStandard } from "@/components/CourseCalendar/CalendarItemReadingsStandard";
 import { CalendarItemTimeAndLocations } from "@/components/CourseCalendar/CalendarItemTimeAndLocations";
 import { formatCalendarDate, parseCalendarDate } from "@/data/CalendarData";
 import {
