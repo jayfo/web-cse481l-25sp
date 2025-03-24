@@ -153,7 +153,7 @@ export const calendarData: {
   },
 
   assignments: {
-/*
+    /*
     projectProposal: {
       type: "assignment",
       title: "Project Proposal",
@@ -396,7 +396,7 @@ export const calendarData: {
       title: "TBD",
     },
 
-/*
+    /*
     // Week 1
     {
       date: verifyCalendarDate("2025-01-07", "Tue"),
