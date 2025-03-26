@@ -17,12 +17,12 @@ export const courseData = {
 
   // Link to Ed.
   linkEdDiscussion: {
-    // href: null,
+    href: "https://edstem.org/us/courses/77347/discussion",
   },
 
   // Link to course Drive.
   linkDrive: {
-    // href: "https://drive.google.com/drive/folders/13vHGA0QND7_KURsE6gJNiPZzF26Kxk65?usp=sharing",
+    href: "https://drive.google.com/drive/folders/1AgjhECjpv4UmvaWFoSCL3sH07oDlcGnj?usp=sharing",
   },
 
   // Link to UW COVID guidelines.
