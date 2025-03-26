@@ -1,11 +1,9 @@
 import * as React from "react";
 
-// import { CalendarItemAdditionalResourceReadings } from "@/components/CourseCalendar/CalendarItemAdditionalResourceReadings";
 import { CalendarItemAssignments } from "@/components/CourseCalendar/CalendarItemAssignments";
 import { CalendarItemAways } from "@/components/CourseCalendar/CalendarItemAways";
-// import { CalendarItemContentNonstandard } from "@/components/CourseCalendar/CalendarItemContentNonstandard";
+import { CalendarItemDiscussionPapers } from "@/components/CourseCalendar/CalendarItemDiscussionPapers";
 import { CalendarItemGuests } from "@/components/CourseCalendar/CalendarItemGuests";
-// import { CalendarItemReadingsStandard } from "@/components/CourseCalendar/CalendarItemReadingsStandard";
 import { CalendarItemTimeAndLocations } from "@/components/CourseCalendar/CalendarItemTimeAndLocations";
 import { UnderDevelopment } from "@/components/UnderDevelopment";
 import { formatCalendarDate, parseCalendarDate } from "@/data/CalendarData";
@@ -143,10 +141,10 @@ export const CalendarDateLecture: React.FunctionComponent<{
               <CalendarItemAssignments
                 assignmentCalendarItems={assignmentCalendarItems}
               />
-              {/*
-              <CalendarItemReadingsStandard
+              <CalendarItemDiscussionPapers
                 calendarItem={lectureCalendarItem}
               />
+              {/*
               <CalendarItemContentNonstandard
                 calendarItem={lectureCalendarItem}
               />

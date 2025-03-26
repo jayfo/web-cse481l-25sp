@@ -109,10 +109,7 @@ export type LectureCalendarItemContent =
   | {}
   | { contentNonstandard: React.ReactNode }
   | {
-      readingsStandard: {
-        framing: Reading;
-        instances: Reading[];
-      };
+      discussionPapers: Reading[];
     };
 
 export type LectureCalendarItemAdditionalResourceReadings =

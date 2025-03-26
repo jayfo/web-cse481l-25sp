@@ -261,13 +261,13 @@ export const calendarData: {
       date: verifyCalendarDate("2025-04-01", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Course Overview",
     },
     {
       date: verifyCalendarDate("2025-04-03", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Introductions and Project Ideas",
     },
 
     // Week 2
@@ -275,7 +275,37 @@ export const calendarData: {
       date: verifyCalendarDate("2025-04-08", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Principles of Human-AI Interaction",
+      discussionPapers: [
+        {
+          authorText: "Eric Horvitz",
+          title: "Principles of Mixed-Initiative User Interfaces",
+          publicationText: "CHI 1999",
+          link: "https://canvas.uw.edu/files/132761885/",
+        },
+        {
+          authorText:
+            "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, Eric Horvitz",
+          title: "Guidelines for Human-AI Interaction",
+          publicationText: "CHI 2019",
+          link: "https://canvas.uw.edu/files/132762356/",
+        },
+        {
+          authorText:
+            "Gagan Bansal, Jennifer Wortman Vaughan, Saleema Amershi, Eric Horvitz, Adam Fourney, Hussein Mozannar, Victor Dibia, Daniel S. Weld",
+          title: "Challenges in Human-Agent Communication",
+          publicationText: "arXiv. 2024",
+          link: "https://canvas.uw.edu/files/132762258/",
+        },
+        {
+          authorText:
+            "Hariharan Subramonyam, Jane Im, Colleen Seifert, Eytan Adar",
+          title:
+            "Solving Separation-of-Concerns Problems in Collaborative Design of Human-AI Systems through Leaky Abstractions",
+          publicationText: "CHI 2022",
+          link: "https://canvas.uw.edu/files/132768251/",
+        },
+      ],
     },
     {
       date: verifyCalendarDate("2025-04-10", "Thu"),
