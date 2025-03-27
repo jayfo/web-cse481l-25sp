@@ -319,7 +319,41 @@ export const calendarData: {
       date: verifyCalendarDate("2025-04-10", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Designing for Human-AI Interaction",
+      discussionPapers: [
+        {
+          authorText:
+            "J.D. Zamfirescu-Pereira, Richmond Y. Wong, Bjoern Hartmann, Qian Yang",
+          title:
+            "Why Johnny Can’t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts",
+          publicationText: "CHI 2023",
+          link: "https://canvas.uw.edu/files/132826450/",
+        },
+        {
+          authorText:
+            "Tim Zindulka, Jannek Sekowski, Florian Lehmann, Daniel Buschek",
+          title:
+            "Exploring Mobile Touch Interaction with Large Language Models",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/132826451/",
+        },
+        {
+          authorText:
+            "Damien Masson, Sylvain Malacria, Géry Casiez, Daniel Vogel",
+          title:
+            "DirectGPT: A Direct Manipulation Interface to Interact with Large Language Models",
+          publicationText: "CHI 2024",
+          link: "https://canvas.uw.edu/files/132826447/",
+        },
+        {
+          authorText:
+            'Zachary Englhardt, Chengqian Ma, Margaret E. Morris, Chun-Cheng Chang, Xuhai "Orson" Xu, Lianhui Qin, Daniel McDuff, Xin Liu, Shwetak Patel, Vikram Iyer',
+          title:
+            "From Classification to Clinical Insights: Towards Analyzing and Reasoning About Mobile and Behavioral Health Data With Large Language Models",
+          publicationText: "IMWUT 2024",
+          link: "https://canvas.uw.edu/files/132826446/",
+        },
+      ],
     },
 
     // Week 3

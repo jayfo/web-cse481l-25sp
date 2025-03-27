@@ -13,10 +13,8 @@ export const CalendarItemDiscussionPapers: React.FunctionComponent<{
   if ("discussionPapers" in calendarItem) {
     return (
       <React.Fragment>
-          {(calendarItem.discussionPapers.length == 1) &&
-              (<p>Discussion paper:</p>)}
-          {(calendarItem.discussionPapers.length > 1) &&
-              (<p>Discussion papers:</p>)}
+        {calendarItem.discussionPapers.length == 1 && <p>Discussion paper:</p>}
+        {calendarItem.discussionPapers.length > 1 && <p>Discussion papers:</p>}
         <ul>
           {calendarItem.discussionPapers.map((readingCurrent) => (
             <li key={readingCurrent.title}>
