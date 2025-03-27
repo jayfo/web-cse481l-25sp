@@ -362,7 +362,7 @@ export const calendarData: {
       date: verifyCalendarDate("2025-04-15", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Designing for Human-AI Interaction",
       discussionPapers: [
         {
           authorText:
@@ -385,7 +385,7 @@ export const calendarData: {
       date: verifyCalendarDate("2025-04-17", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Designing for Human-AI Interaction",
       discussionPapers: [
         {
           authorText: "Joshua Gorniak, Yoon Kim, Donglai Wei, Nam Wook Kim",
