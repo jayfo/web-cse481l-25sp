@@ -362,13 +362,47 @@ export const calendarData: {
       date: verifyCalendarDate("2025-04-15", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Designing for Human-AI Interaction",
+      discussionPapers: [
+        {
+          authorText:
+            "Peitong Duan, Chin-Yi Cheng, Gang Li, Bjoern Hartmann, Yang Li",
+          title:
+            "UICrit: Enhancing Automated Design Evaluation with a UI Critique Dataset",
+          publicationText: "UIST 2024",
+          link: "https://canvas.uw.edu/files/132854975/",
+        },
+        {
+          authorText:
+            "Xingyu Bruce Liu, Shitao Fang, Weiyan Shi, Chien-Sheng Wu, Takeo Igarashi, Xiang Anthony Chen",
+          title: "Proactive Conversational Agents with Inner Thoughts",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/132854974/",
+        },
+      ],
     },
     {
       date: verifyCalendarDate("2025-04-17", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Designing for Human-AI Interaction",
+      discussionPapers: [
+        {
+          authorText: "Joshua Gorniak, Yoon Kim, Donglai Wei, Nam Wook Kim",
+          title:
+            "VizAbility: Enhancing Chart Accessibility with LLM-based Conversational Interaction",
+          publicationText: "UIST 2024",
+          link: "https://canvas.uw.edu/files/132854980/",
+        },
+        {
+          authorText:
+            "Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-Woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim",
+          title:
+            "MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients’ Journaling",
+          publicationText: "CHI 2024",
+          link: "https://canvas.uw.edu/files/132854979/",
+        },
+      ],
     },
 
     // Week 4
