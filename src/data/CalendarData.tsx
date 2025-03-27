@@ -262,6 +262,14 @@ export const calendarData: {
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
       title: "Course Overview",
+      discussionPapers: [
+        {
+          authorText: "Michael S. Bernstein, Greg Little, Robert C. Miller, Björn Hartmann, Mark S. Ackerman, David R. Karger, David Crowell, Katrina Panovich",
+          title: "Soylent: A Word Processor with a Crowd Inside",
+          publicationText: "UIST 2010",
+          link: "https://canvas.uw.edu/files/132826278/",
+        },
+      ]
     },
     {
       date: verifyCalendarDate("2025-04-03", "Thu"),
