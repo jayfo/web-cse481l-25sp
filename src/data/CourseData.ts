@@ -25,6 +25,11 @@ export const courseData = {
     href: "https://drive.google.com/drive/folders/1AgjhECjpv4UmvaWFoSCL3sH07oDlcGnj?usp=sharing",
   },
 
+  // Link to course GitLab.
+  linkGitLab: {
+    href: "https://gitlab.cs.washington.edu/cse481l-25sp",
+  },
+
   // Link to UW COVID guidelines.
   linkUniversityCovidGuidelines: {
     href: "https://www.ehs.washington.edu/covid-19-prevention-and-response/covid-19-illness-and-exposure-guidance",
