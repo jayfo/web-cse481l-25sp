@@ -21,8 +21,8 @@ export function LayoutSidebar({}: LayoutSidebarProps) {
         if (routeSegments.length >= 2) {
           if (routeSegments[1] === "project") {
             return PAGE_LINKS_PROJECT;
-          // } else if (routeSegments[1] === "reflections") {
-          //   return PAGE_LINKS_REFLECTIONS;
+            // } else if (routeSegments[1] === "reflections") {
+            //   return PAGE_LINKS_REFLECTIONS;
           }
         }
       }

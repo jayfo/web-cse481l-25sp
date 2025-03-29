@@ -48,8 +48,7 @@ export const SITE_LINKS = [
       href: SiteLinks.assignmentsTechnologyLabTop.href,
       anchor: (() => {
         assert(
-          SiteLinks.assignmentsTechnologyLabTop.anchor ===
-            "Technology Lab",
+          SiteLinks.assignmentsTechnologyLabTop.anchor === "Technology Lab",
         );
 
         return (
