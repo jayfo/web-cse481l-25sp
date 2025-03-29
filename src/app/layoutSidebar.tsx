@@ -4,7 +4,7 @@ import * as React from "react";
 
 import {
   PAGE_LINKS_PROJECT,
-  PAGE_LINKS_REFLECTIONS,
+  // PAGE_LINKS_REFLECTIONS,
   SITE_LINKS,
 } from "@/app/sitelinks";
 import { Sidebar } from "@/components/Sidebar";
@@ -21,8 +21,8 @@ export function LayoutSidebar({}: LayoutSidebarProps) {
         if (routeSegments.length >= 2) {
           if (routeSegments[1] === "project") {
             return PAGE_LINKS_PROJECT;
-          } else if (routeSegments[1] === "reflections") {
-            return PAGE_LINKS_REFLECTIONS;
+          // } else if (routeSegments[1] === "reflections") {
+          //   return PAGE_LINKS_REFLECTIONS;
           }
         }
       }
