@@ -28,6 +28,11 @@ export const SiteLinks = {
     anchor: "Paper Presentations",
   },
 
+  assignmentsTechnologyLabTop: {
+    href: "/assignments/lab/#technology-lab",
+    anchor: "Technology Lab",
+  },
+
   assignmentsProjectTop: {
     href: "/assignments/project/#project",
     anchor: "Project",
