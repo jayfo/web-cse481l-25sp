@@ -44,8 +44,24 @@ export const SITE_LINKS = [
         );
       })(),
     },
+    {
+      href: SiteLinks.assignmentsTechnologyLabTop.href,
+      anchor: (() => {
+        assert(
+          SiteLinks.assignmentsTechnologyLabTop.anchor ===
+            "Technology Lab",
+        );
+
+        return (
+          <React.Fragment>
+            Technology
+            <br />
+            Lab
+          </React.Fragment>
+        );
+      })(),
+    },
     SiteLinks.assignmentsProjectTop,
-    // SiteLinks.assignmentsReflectionsTop,
   ],
   SiteLinks.calendarTop,
 ];
@@ -59,12 +75,3 @@ export const PAGE_LINKS_PROJECT = [
     // SiteLinks.assignmentsProjectFinalReportTop,
   ],
 ];
-
-// export const PAGE_LINKS_REFLECTIONS = [
-//   SiteLinks.assignmentsReflectionsTop,
-//   [
-//     SiteLinks.assignmentsReflectionsContributionTop,
-//     SiteLinks.assignmentsReflectionsMethodTop,
-//     SiteLinks.assignmentsReflectionsFramingTop,
-//   ],
-// ];

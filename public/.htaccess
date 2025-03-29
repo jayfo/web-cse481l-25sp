@@ -11,7 +11,9 @@ RewriteEngine On
 RewriteRule ^calendar[/]?$ calendar.html
 
 RewriteRule ^assignments[/]?$ assignments.html
+RewriteRule ^assignments/lab[/]?$ assignments/lab.html
 RewriteRule ^assignments/papers[/]?$ assignments/papers.html
+RewriteRule ^assignments/project[/]?$ assignments/project.html
 
 # RewriteRule ^assignments/presentations[/]?$ assignments/presentations.html
 #

@@ -14,7 +14,7 @@ export const SiteLinks = {
   },
 
   assignmentsContributionStatements: {
-    href: "/assignments/#contributionstatements",
+    href: "/assignments/#contribution-statements",
     anchor: "Contribution Statements",
   },
 
@@ -24,8 +24,13 @@ export const SiteLinks = {
   // },
 
   assignmentsPaperPresentationsTop: {
-    href: "/assignments/papers/#paperpresentations",
+    href: "/assignments/papers/#paper-presentations",
     anchor: "Paper Presentations",
+  },
+
+  assignmentsTechnologyLabTop: {
+    href: "/assignments/lab/#technology-lab",
+    anchor: "Technology Lab",
   },
 
   assignmentsProjectTop: {
