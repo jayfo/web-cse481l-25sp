@@ -15,14 +15,34 @@ export const courseData = {
     href: LINK_CANVAS,
   },
 
+  // Link to Canvas Paper Presentations.
+  linkCanvasPaperPresentation1DraftSlides: {
+    href: "https://canvas.uw.edu/courses/1798621/assignments/10253217",
+  },
+  linkCanvasPaperPresentation1ContributionStatement: {
+    href: "https://canvas.uw.edu/courses/1798621/assignments/10254648",
+  },
+
+  linkCanvasPaperPresentation2DraftSlides: {
+    href: "https://canvas.uw.edu/courses/1798621/assignments/10254647",
+  },
+  linkCanvasPaperPresentation2ContributionStatement: {
+    href: "https://canvas.uw.edu/courses/1798621/assignments/10254651",
+  },
+
+  // Link to Drive.
+  linkDrive: {
+    href: "https://drive.google.com/drive/folders/1AgjhECjpv4UmvaWFoSCL3sH07oDlcGnj?usp=sharing",
+  },
+
+  // Link to Drive document for presentation signup.
+  linkDrivePresentationSignup: {
+    href: "https://docs.google.com/spreadsheets/d/1dkXhZMsL--e_lmMuVbzRLWUhrDm1vOCLKO3glksqKBo/edit?usp=sharing",
+  },
+
   // Link to Ed.
   linkEdDiscussion: {
     href: "https://edstem.org/us/courses/77347/discussion",
-  },
-
-  // Link to course Drive.
-  linkDrive: {
-    href: "https://drive.google.com/drive/folders/1AgjhECjpv4UmvaWFoSCL3sH07oDlcGnj?usp=sharing",
   },
 
   // Link to course GitLab.
@@ -73,10 +93,6 @@ export const courseData = {
   },
   linkCanvasReflectionOptional: {
     href: "https://canvas.uw.edu/courses/1786160/assignments/10051201",
-  },
-
-  linkDrivePresentationSignup: {
-    href: "https://docs.google.com/document/d/1e8__5CSjknBdcDE1R8fYbzctd18s0l8s3hxfC9UJYXU/edit",
   },
 
   linkDrivePresentationDraftSlides: {
