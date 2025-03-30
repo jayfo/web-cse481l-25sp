@@ -8,61 +8,78 @@ export const SITE_LINKS = [
   SiteLinks.homeTop,
   SiteLinks.assignmentsTop,
   [
-    // // Custom formatting for SiteLinks.assignmentsReadingsTop
+    SiteLinks.assignmentsPaperPresentationsTop,
     // {
-    //   href: SiteLinks.assignmentsReadingsTop.href,
+    //   href: SiteLinks.assignmentsPaperPresentationsTop.href,
     //   anchor: (() => {
     //     assert(
-    //       SiteLinks.assignmentsReadingsTop.anchor ===
-    //         "Readings and Discussion Posts",
+    //       SiteLinks.assignmentsPaperPresentationsTop.anchor ===
+    //         "Paper Presentations",
     //     );
     //
     //     return (
     //       <React.Fragment>
-    //         Readings and
+    //         Paper
     //         <br />
-    //         Discussion Posts
+    //         Presentations
     //       </React.Fragment>
     //     );
     //   })(),
     // },
-    // Custom formatting for SiteLinks.assignmentsPresentationsTop
-    {
-      href: SiteLinks.assignmentsPaperPresentationsTop.href,
-      anchor: (() => {
-        assert(
-          SiteLinks.assignmentsPaperPresentationsTop.anchor ===
-            "Paper Presentations",
-        );
-
-        return (
-          <React.Fragment>
-            Paper
-            <br />
-            Presentations
-          </React.Fragment>
-        );
-      })(),
-    },
-    {
-      href: SiteLinks.assignmentsTechnologyLabTop.href,
-      anchor: (() => {
-        assert(
-          SiteLinks.assignmentsTechnologyLabTop.anchor === "Technology Lab",
-        );
-
-        return (
-          <React.Fragment>
-            Technology
-            <br />
-            Lab
-          </React.Fragment>
-        );
-      })(),
-    },
+    SiteLinks.assignmentsTechnologyLabTop,
+    // {
+    //   href: SiteLinks.assignmentsTechnologyLabTop.href,
+    //   anchor: (() => {
+    //     assert(
+    //       SiteLinks.assignmentsTechnologyLabTop.anchor === "Technology Lab",
+    //     );
+    //
+    //     return (
+    //       <React.Fragment>
+    //         Technology
+    //         <br />
+    //         Lab
+    //       </React.Fragment>
+    //     );
+    //   })(),
+    // },
     SiteLinks.assignmentsProjectTop,
   ],
   SiteLinks.calendarTop,
+];
+
+export const PAGE_LINKS_PAPER_PRESENTATIONS = [
+  SiteLinks.assignmentsPaperPresentationsTop,
+  [
+    SiteLinks.assignmentsPaperPresentationsStudentPresentations,
+    SiteLinks.assignmentsPaperPresentationsPresentationLogistics,
+  ],
+];
+
+export const PAGE_LINKS_TECHNOLOGY_LAB = [
+  SiteLinks.assignmentsTechnologyLabTop,
+  [
+    SiteLinks.assignmentsTechnologyLabRequirements,
+    SiteLinks.assignmentsTechnologyLabDeliverables,
+    SiteLinks.assignmentsTechnologyLabExample,
+    SiteLinks.assignmentsTechnologyLabAssessmentOfExample,
+    // {
+    //   href: SiteLinks.assignmentsTechnologyLabAssessmentOfExample.href,
+    //   anchor: (() => {
+    //     assert(
+    //       SiteLinks.assignmentsTechnologyLabAssessmentOfExample.anchor === "Assessment of Example",
+    //     );
+    //
+    //     return (
+    //       <React.Fragment>
+    //         Assessment
+    //         <br />
+    //         of Example
+    //       </React.Fragment>
+    //     );
+    //   })(),
+    // },
+  ],
 ];
 
 export const PAGE_LINKS_PROJECT = [

@@ -3,8 +3,9 @@
 import * as React from "react";
 
 import {
+  PAGE_LINKS_PAPER_PRESENTATIONS,
   PAGE_LINKS_PROJECT,
-  // PAGE_LINKS_REFLECTIONS,
+  PAGE_LINKS_TECHNOLOGY_LAB,
   SITE_LINKS,
 } from "@/app/sitelinks";
 import { Sidebar } from "@/components/Sidebar";
@@ -19,10 +20,12 @@ export function LayoutSidebar({}: LayoutSidebarProps) {
     if (routeSegments.length >= 1) {
       if (routeSegments[0] === "assignments") {
         if (routeSegments.length >= 2) {
-          if (routeSegments[1] === "project") {
+          if (routeSegments[1] === "papers") {
+            return PAGE_LINKS_PAPER_PRESENTATIONS;
+          } else if (routeSegments[1] === "lab") {
+            return PAGE_LINKS_TECHNOLOGY_LAB;
+          } else if (routeSegments[1] === "project") {
             return PAGE_LINKS_PROJECT;
-            // } else if (routeSegments[1] === "reflections") {
-            //   return PAGE_LINKS_REFLECTIONS;
           }
         }
       }
