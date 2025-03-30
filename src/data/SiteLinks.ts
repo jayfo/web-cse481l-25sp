@@ -27,10 +27,34 @@ export const SiteLinks = {
     href: "/assignments/papers/#paper-presentations",
     anchor: "Paper Presentations",
   },
+  assignmentsPaperPresentationsStudentPresentations: {
+    href: "/assignments/papers/#student-presentations",
+    anchor: "Student Presentations",
+  },
+  assignmentsPaperPresentationsPresentationLogistics: {
+    href: "/assignments/papers/#presentation-logistics",
+    anchor: "Presentation Logistics",
+  },
 
   assignmentsTechnologyLabTop: {
     href: "/assignments/lab/#technology-lab",
     anchor: "Technology Lab",
+  },
+  assignmentsTechnologyLabRequirements: {
+    href: "/assignments/lab/#requirements",
+    anchor: "Requirements",
+  },
+  assignmentsTechnologyLabDeliverables: {
+    href: "/assignments/lab/#deliverables",
+    anchor: "Deliverables",
+  },
+  assignmentsTechnologyLabExample: {
+    href: "/assignments/lab/#example",
+    anchor: "Example",
+  },
+  assignmentsTechnologyLabAssessmentOfExample: {
+    href: "/assignments/lab/#assessment-of-example",
+    anchor: "Assessment of Example",
   },
 
   assignmentsProjectTop: {
