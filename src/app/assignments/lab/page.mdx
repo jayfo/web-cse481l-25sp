@@ -147,7 +147,7 @@ This example uses:
    and to modify the above `route.tsx` to accept a `POST` request from the page.
    We further refined the design a bit and added support for dark mode.
    These modifications to the generated project can be seen in our
-   [GitLab Commit](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo/-/commit/cf9b952cf1b968fee1ea0f0a1c8bad9fc02b843e).
+   [GitLab commit](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo/-/commit/cf9b952cf1b968fee1ea0f0a1c8bad9fc02b843e).
 
 <Box display="flex" flexDirection="row" alignItems="flex-start">
   <Box sx={{ mx: 'auto' }}>
@@ -175,7 +175,7 @@ This example uses:
 
 8. We tested the prototype, identified minor functional and stylistic issues, and made modifications to address those.
    This set of modifications can be seen in our
-   [GitLab Commit](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo/-/commit/42e251f661f8081fa3e2e8da00f34a4a1db08450).
+   [GitLab commit](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo/-/commit/42e251f661f8081fa3e2e8da00f34a4a1db08450).
 
 ### Example 2: Using a Local Language Model
 
@@ -203,7 +203,7 @@ Informed by the list of models it supports [here](https://ollama.com/library), w
   </Box>
 </Box>
 
-2. In the web project, I installed `ollama` using `npm i ollama`.
+2. In the web project, we installed `ollama` using `npm i ollama`.
    Informed by the [ollama documentation](https://github.com/ollama/ollama-js), we swapped out the Gemini API for the ollama API.
 
 3. That was everything. The Story Generator continues to work, but is now using a local LLM running on our own computer.
@@ -216,7 +216,7 @@ As a short reflection, we consider how the staff might assess the example if it 
   It includes the use of an interface framework, an integration of AI, and the use of persistent storage.
   Several steps in its development were captured in GitLab.
 - It seems to fall short in the extent to which it integrates AI.
-  The prototype merely combines input with a short system prompt, then directly displays the language model.
+  The prototype merely combines input with a short system prompt, then directly displays the language model's output.
   Developing this did not require meaningful experimentation with the AI or other insight into its integration.
 - There are some artifacts of AI code generation, including code in `StoryHistoryItem.tsx` that is not very readable:
     ```typescript
