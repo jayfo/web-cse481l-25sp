@@ -155,7 +155,8 @@ export const calendarData: {
   assignments: {
     labSlidesAndVideo: {
       type: "assignment",
-      title: "Technology Lab: GitLab Code, Video Demonstration, Reflection, Slide",
+      title:
+        "Technology Lab: GitLab Code, Video Demonstration, Reflection, Slide",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-04-18", "Fri"),
     },
@@ -165,7 +166,6 @@ export const calendarData: {
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-04-22", "Tue"),
     },
-
 
     projectIntroductionAndIdeaSlides: {
       type: "assignment",
