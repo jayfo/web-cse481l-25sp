@@ -69,7 +69,7 @@ export const CalendarDateAssignments: React.FunctionComponent<{
                   formatCalendarDate(calendarDate, CALENDAR_DATE_FORMAT),
                 )}
                 component="h2"
-                sx={{ typography: "h3" }}
+                sx={{ typography: "h3", color: "grey" }}
               >
                 {formatCalendarDate(calendarDate, CALENDAR_DATE_FORMAT)}
               </Typography>
@@ -88,12 +88,15 @@ export const CalendarDateAssignments: React.FunctionComponent<{
                 justifyContent: "space-between",
               }}
             >
-              <Typography component="h2" sx={{ typography: "h3" }}>
+              <Typography
+                component="h2"
+                sx={{ typography: "h3", color: "grey" }}
+              >
                 Assignment Due
               </Typography>
               <ExpandCircleDownOutlined
                 onClick={toggleExpanded}
-                sx={{ transform: rotation }}
+                sx={{ transform: rotation, color: "grey" }}
               />
             </Box>
           </Grid>
