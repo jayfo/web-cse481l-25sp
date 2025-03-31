@@ -153,6 +153,44 @@ export const calendarData: {
   },
 
   assignments: {
+    labSlidesAndVideo: {
+      type: "assignment",
+      title: "Technology Lab: GitLab Code, Video Demonstration, Reflection, Slide",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-04-18", "Fri"),
+    },
+    labPresentation: {
+      type: "assignment",
+      title: "Technology Lab: Presentation",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-04-22", "Tue"),
+    },
+
+
+    projectIntroductionAndIdeaSlides: {
+      type: "assignment",
+      title: "Project: Introduction and Idea Slides",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-04-02", "Wed"),
+    },
+    projectIntroductionAndIdeaPresentation: {
+      type: "assignment",
+      title: "Project: Introduction and Idea Presentation",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-04-03", "Thu"),
+    },
+    projectGroupBrainstorm: {
+      type: "assignment",
+      title: "Project: Group Brainstorm",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-04-09", "Wed"),
+    },
+    projectGroupsFinalized: {
+      type: "assignment",
+      title: "Project: Groups Finalized",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-04-11", "Fri"),
+    },
     /*
     projectProposal: {
       type: "assignment",
@@ -410,13 +448,13 @@ export const calendarData: {
       date: verifyCalendarDate("2025-04-22", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Technology Lab Presentations",
     },
     {
       date: verifyCalendarDate("2025-04-24", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Project Working Time",
     },
 
     // Week 5
@@ -424,13 +462,13 @@ export const calendarData: {
       date: verifyCalendarDate("2025-04-29", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Project Working Time",
     },
     {
       date: verifyCalendarDate("2025-05-01", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Project Working Time",
     },
 
     // Week 6
