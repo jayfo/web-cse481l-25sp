@@ -46,6 +46,11 @@ const TIME_AND_LOCATION_LECTURE = {
   location: "LOEW 205",
 };
 
+const TIME_AND_LOCATION_SHOWCASE = {
+  time: "10:00 to 11:20",
+  location: "CSE/Allen Atrium",
+};
+
 export function parseCalendarDate(calendarDate: CalendarDate): Date {
   const parsedDate = datefnsParse(calendarDate, "yyyy-MM-dd", new Date());
   assert(datefnsIsValid(parsedDate), `Invalid date: ${calendarDate}`);
@@ -191,6 +196,56 @@ export const calendarData: {
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-04-11", "Fri"),
     },
+    projectTempMilestone1: {
+      type: "assignment",
+      title: "Project: Design Proposal",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-04-21", "Mon"),
+    },
+    projectTempMilestone2: {
+      type: "assignment",
+      title: "Project: Formative Design Research",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-04-30", "Wed"),
+    },
+    projectTempMilestone3: {
+      type: "assignment",
+      title: "Project: Interactive Prototype",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-05-11", "Sun"),
+    },
+    projectTempMilestone5: {
+      type: "assignment",
+      title: "Project: Peer Evaluation and Testing",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-05-18", "Sun"),
+    },
+    projectTempMilestone4: {
+      type: "assignment",
+      title: "Project: Revised Prototype",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-05-25", "Sun"),
+    },
+    projectTempMilestone6: {
+      type: "assignment",
+      title: "Project: Usability Testing and Final Prototype",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-06-01", "Sun"),
+    },
+
+    projectShowcasePoster: {
+      type: "assignment",
+      title: "Project: Poster",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-05-30", "Fri"),
+    },
+    projectShowcaseSession: {
+      type: "assignment",
+      title: "Project: Poster Session",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-06-05", "Thu"),
+    },
+
     /*
     projectProposal: {
       type: "assignment",
@@ -264,22 +319,22 @@ export const calendarData: {
     {
       date: verifyCalendarDate("2025-04-22", "Tue"),
       type: "away",
-      title: "Mingyuan",
+      title: "Mingyuan at CHI 2025",
     },
     {
       date: verifyCalendarDate("2025-04-24", "Thu"),
       type: "away",
-      title: "James and Mingyuan",
+      title: "James and Mingyuan at CHI 2025",
     },
     {
       date: verifyCalendarDate("2025-04-29", "Tue"),
       type: "away",
-      title: "James and Mingyuan",
+      title: "James and Mingyuan at CHI 2025",
     },
     {
       date: verifyCalendarDate("2025-05-01", "Thu"),
       type: "away",
-      title: "James and Mingyuan",
+      title: "James and Mingyuan at CHI 2025",
     },
   ],
 
@@ -532,13 +587,13 @@ export const calendarData: {
       date: verifyCalendarDate("2025-06-03", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Project Presentations",
     },
     {
       date: verifyCalendarDate("2025-06-05", "Thu"),
-      timeAndLocation: TIME_AND_LOCATION_LECTURE,
+      timeAndLocation: TIME_AND_LOCATION_SHOWCASE,
       type: "lecture",
-      title: "TBD",
+      title: "Project Showcase",
     },
 
     /*
