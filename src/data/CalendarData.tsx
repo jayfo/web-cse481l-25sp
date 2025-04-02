@@ -43,7 +43,7 @@ type dayOfWeek = (typeof dayOfWeekValues)[number];
 
 const TIME_AND_LOCATION_LECTURE = {
   time: "10:00 to 11:20",
-  location: "LOEW 205",
+  location: "BAG 108",
 };
 
 const TIME_AND_LOCATION_SHOWCASE = {
