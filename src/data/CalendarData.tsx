@@ -194,7 +194,7 @@ export const calendarData: {
       type: "assignment",
       title: "Project: Groups Finalized",
       link: SiteLinks.assignmentsProjectTop.href,
-      date: verifyCalendarDate("2025-04-11", "Fri"),
+      date: verifyCalendarDate("2025-04-13", "Sun"),
     },
     projectTempMilestone1: {
       type: "assignment",
