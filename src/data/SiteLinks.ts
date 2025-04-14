@@ -56,6 +56,34 @@ export const SiteLinks = {
     href: "/assignments/project/#project",
     anchor: "Project",
   },
+  assignmentsProjectIntroductionAndIdea: {
+    href: "/assignments/project/#introduction-and-idea",
+    anchor: "Introduction and Idea",
+  },
+  assignmentsProjectGroupBrainstorm: {
+    href: "/assignments/project/#group-brainstorm",
+    anchor: "Group Brainstorm",
+  },
+  assignmentsProjectGroupsFinalized: {
+    href: "/assignments/project/#groups-finalized",
+    anchor: "Groups Finalized",
+  },
+  assignmentsProjectDesignProposal: {
+    href: "/assignments/project/#design-proposal",
+    anchor: "Design Proposal",
+  },
+  assignmentsProjectFormativeResearch: {
+    href: "/assignments/project/#formative-research",
+    anchor: "Formative Research",
+  },
+  assignmentsProjectInteractivePrototype: {
+    href: "/assignments/project/#interactive-prototype",
+    anchor: "Interactive Prototype",
+  },
+  assignmentsProjectMore: {
+    href: "/assignments/project/#project",
+    anchor: "...",
+  },
 
   calendarTop: {
     href: "/calendar/#calendar",

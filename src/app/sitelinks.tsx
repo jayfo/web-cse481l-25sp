@@ -85,9 +85,12 @@ export const PAGE_LINKS_TECHNOLOGY_LAB = [
 export const PAGE_LINKS_PROJECT = [
   SiteLinks.assignmentsProjectTop,
   [
-    // SiteLinks.assignmentsProjectProposalTop,
-    // SiteLinks.assignmentsProjectMilestoneReport1Top,
-    // SiteLinks.assignmentsProjectMilestoneReport2Top,
-    // SiteLinks.assignmentsProjectFinalReportTop,
+    SiteLinks.assignmentsProjectIntroductionAndIdea,
+    SiteLinks.assignmentsProjectGroupBrainstorm,
+    SiteLinks.assignmentsProjectGroupsFinalized,
+    SiteLinks.assignmentsProjectDesignProposal,
+    SiteLinks.assignmentsProjectFormativeResearch,
+    SiteLinks.assignmentsProjectInteractivePrototype,
+    SiteLinks.assignmentsProjectMore,
   ],
 ];
