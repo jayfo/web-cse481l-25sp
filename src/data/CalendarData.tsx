@@ -531,7 +531,7 @@ export const calendarData: {
       date: verifyCalendarDate("2025-05-06", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Project Meetings",
     },
     {
       date: verifyCalendarDate("2025-05-08", "Thu"),
