@@ -576,7 +576,21 @@ export const calendarData: {
       date: verifyCalendarDate("2025-05-20", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Human-AI Interaction in Industry",
+      guest: {
+        name: "Amanda Swearngin",
+        link: "https://amaswea.github.io/",
+      },
+      discussionPapers: [
+        {
+          authorText:
+            "Maryam Taeb, Amanda Swearngin, Eldon Schoop, Ruijia Cheng, Yue Jiang, Jeffrey Nichols",
+          title:
+            "AXNav: Replaying Accessibility Tests from Natural Language",
+          publicationText: "CHI 2024",
+          link: "https://canvas.uw.edu/files/134336791/",
+        },
+      ],
     },
     {
       date: verifyCalendarDate("2025-05-22", "Thu"),
