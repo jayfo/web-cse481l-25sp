@@ -531,13 +531,30 @@ export const calendarData: {
       date: verifyCalendarDate("2025-05-06", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Project Meetings",
     },
     {
       date: verifyCalendarDate("2025-05-08", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Human-AI Interaction in Context",
+      discussionPapers: [
+        {
+          authorText: "Dhruv Agarwal, Mor Naaman, Aditya Vashistha",
+          title:
+            "AI Suggestions Homogenize Writing Toward Western Styles and Diminish Cultural Nuances",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/134315593/",
+        },
+        {
+          authorText:
+            "Aaleyah Lewis, Aayushi Dangol, Hyewon Suh, Abbie Olszewski, James Fogarty, Julie A. Kientz",
+          title:
+            "Exploring AI-Based Support in Speech-Language Pathology for Culturally and Linguistically Diverse Children",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/134315596/",
+        },
+      ],
     },
 
     // Week 7
@@ -559,7 +576,21 @@ export const calendarData: {
       date: verifyCalendarDate("2025-05-20", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Human-AI Interaction in Industry",
+      guest: {
+        name: "Amanda Swearngin",
+        link: "https://amaswea.github.io/",
+      },
+      discussionPapers: [
+        {
+          authorText:
+            "Maryam Taeb, Amanda Swearngin, Eldon Schoop, Ruijia Cheng, Yue Jiang, Jeffrey Nichols",
+          title:
+            "AXNav: Replaying Accessibility Tests from Natural Language",
+          publicationText: "CHI 2024",
+          link: "https://canvas.uw.edu/files/134336791/",
+        },
+      ],
     },
     {
       date: verifyCalendarDate("2025-05-22", "Thu"),
