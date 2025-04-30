@@ -568,7 +568,24 @@ export const calendarData: {
       date: verifyCalendarDate("2025-05-15", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Human-AI Interaction in Context",
+      discussionPapers: [
+        {
+          authorText: "Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li",
+          title:
+            "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/134421728/",
+        },
+        {
+          authorText:
+            "Weiran Lin, Anna Gerchanovsky, Omer Akgul, Lujo Bauer, Matt Fredrikson, Zifan Wang",
+          title:
+            "LLM Whisperer: An Inconspicuous Attack to Bias LLM Responses",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/134421732/",
+        },
+      ],
     },
 
     // Week 8
