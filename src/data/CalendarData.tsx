@@ -580,8 +580,7 @@ export const calendarData: {
         {
           authorText:
             "Weiran Lin, Anna Gerchanovsky, Omer Akgul, Lujo Bauer, Matt Fredrikson, Zifan Wang",
-          title:
-            "LLM Whisperer: An Inconspicuous Attack to Bias LLM Responses",
+          title: "LLM Whisperer: An Inconspicuous Attack to Bias LLM Responses",
           publicationText: "CHI 2025",
           link: "https://canvas.uw.edu/files/134421732/",
         },
@@ -602,8 +601,7 @@ export const calendarData: {
         {
           authorText:
             "Maryam Taeb, Amanda Swearngin, Eldon Schoop, Ruijia Cheng, Yue Jiang, Jeffrey Nichols",
-          title:
-            "AXNav: Replaying Accessibility Tests from Natural Language",
+          title: "AXNav: Replaying Accessibility Tests from Natural Language",
           publicationText: "CHI 2024",
           link: "https://canvas.uw.edu/files/134336791/",
         },
