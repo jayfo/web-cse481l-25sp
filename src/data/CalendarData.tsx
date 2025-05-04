@@ -619,7 +619,21 @@ export const calendarData: {
       date: verifyCalendarDate("2025-05-27", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Human-AI Interaction in Industry",
+      guest: {
+        name: "Gagan Bansal",
+        link: "https://gagb.github.io/",
+      },
+      discussionPapers: [
+        {
+          authorText:
+            "Adam Fourney, Gagan Bansal, Hussein Mozannar, Cheng Tan, Eduardo Salinas, Erkang (Eric) Zhu, Friederike Niedtner, Grace Proebsting, Griffin Bassman, Jack Gerrits, Jacob Alber, Peter Chang, Ricky Loynd, Robert West, Victor Dibia, Ahmed Awadallah, Ece Kamar, Rafah Hosn, Saleema Amershi",
+          title:
+            "Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks",
+          publicationText: "arXiv. 2024",
+          link: "https://canvas.uw.edu/files/134605309/",
+        },
+      ],
     },
     {
       date: verifyCalendarDate("2025-05-29", "Thu"),
