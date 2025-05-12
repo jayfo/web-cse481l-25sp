@@ -93,7 +93,6 @@ export const SiteLinks = {
     anchor: "Design Status Reports",
   },
 
-
   calendarTop: {
     href: "/calendar/#calendar",
     anchor: "Calendar",
