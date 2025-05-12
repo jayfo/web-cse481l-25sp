@@ -214,12 +214,14 @@ export const calendarData: {
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-05-11", "Sun"),
     },
+    /*
     projectTempMilestone5: {
       type: "assignment",
       title: "Project: Peer Evaluation and Testing",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-05-18", "Sun"),
     },
+    */
     projectTempMilestone4: {
       type: "assignment",
       title: "Project: Revised Prototype",
