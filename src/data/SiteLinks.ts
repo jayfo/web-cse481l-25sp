@@ -56,6 +56,10 @@ export const SiteLinks = {
     href: "/assignments/project/#project",
     anchor: "Project",
   },
+  assignmentsProjectDeliverables: {
+    href: "/assignments/project/#deliverables",
+    anchor: "Deliverables",
+  },
   assignmentsProjectIntroductionAndIdea: {
     href: "/assignments/project/#introduction-and-idea",
     anchor: "Introduction and Idea",
@@ -84,6 +88,11 @@ export const SiteLinks = {
     href: "/assignments/project/#project",
     anchor: "...",
   },
+  assignmentsProjectDesignStatusReports: {
+    href: "/assignments/project/#design-status-reports",
+    anchor: "Design Status Reports",
+  },
+
 
   calendarTop: {
     href: "/calendar/#calendar",
