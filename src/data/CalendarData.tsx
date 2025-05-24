@@ -196,54 +196,45 @@ export const calendarData: {
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-04-13", "Sun"),
     },
-    projectTempMilestone1: {
+    projectDesignProposal: {
       type: "assignment",
       title: "Project: Design Proposal",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-04-21", "Mon"),
     },
-    projectTempMilestone2: {
+    projectFormativeResearch: {
       type: "assignment",
-      title: "Project: Formative Design Research",
+      title: "Project: Formative Research",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-04-30", "Wed"),
     },
-    projectTempMilestone3: {
+    projectInteractivePrototype: {
       type: "assignment",
       title: "Project: Interactive Prototype",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-05-11", "Sun"),
     },
-    /*
-    projectTempMilestone5: {
-      type: "assignment",
-      title: "Project: Peer Evaluation and Testing",
-      link: SiteLinks.assignmentsProjectTop.href,
-      date: verifyCalendarDate("2025-05-18", "Sun"),
-    },
-    */
-    projectTempMilestone4: {
+    projectRevisedPrototype: {
       type: "assignment",
       title: "Project: Revised Prototype",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-05-25", "Sun"),
     },
-    projectTempMilestone6: {
+    projectFinalPrototype: {
       type: "assignment",
-      title: "Project: Usability Testing and Final Prototype",
+      title: "Project: Final Prototype",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-06-01", "Sun"),
     },
-
-    projectShowcasePoster: {
+    projectPoster: {
       type: "assignment",
       title: "Project: Poster",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-05-30", "Fri"),
     },
-    projectShowcaseSession: {
+    projectShowcase: {
       type: "assignment",
-      title: "Project: Poster Session",
+      title: "Project: Poster Showcase",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-06-05", "Thu"),
     },
