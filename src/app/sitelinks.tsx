@@ -93,23 +93,26 @@ export const PAGE_LINKS_PROJECT = [
     SiteLinks.assignmentsProjectFormativeResearch,
     SiteLinks.assignmentsProjectInteractivePrototype,
     SiteLinks.assignmentsProjectRevisedPrototype,
+    SiteLinks.assignmentsProjectPoster,
     SiteLinks.assignmentsProjectFinalPrototype,
-    {
-      href: SiteLinks.assignmentsProjectFinalPosterPresentationShowcase.href,
-      anchor: (() => {
-        assert(
-          SiteLinks.assignmentsProjectFinalPosterPresentationShowcase.anchor === "Poster, Presentation, and Showcase",
-        );
-
-        return (
-          <React.Fragment>
-            Poster, Presentation,
-            <br />
-            and Showcase
-          </React.Fragment>
-        );
-      })(),
-    },
+    SiteLinks.assignmentsProjectPresentation,
+    SiteLinks.assignmentsProjectPosterShowcase,
+    // {
+    //   href: SiteLinks.assignmentsProjectFinalPosterPresentationShowcase.href,
+    //   anchor: (() => {
+    //     assert(
+    //       SiteLinks.assignmentsProjectFinalPosterPresentationShowcase.anchor === "Poster, Presentation, and Showcase",
+    //     );
+    //
+    //     return (
+    //       <React.Fragment>
+    //         Poster, Presentation,
+    //         <br />
+    //         and Showcase
+    //       </React.Fragment>
+    //     );
+    //   })(),
+    // },
   ],
   SiteLinks.assignmentsProjectDesignStatusReports,
 ];

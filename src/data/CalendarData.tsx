@@ -220,17 +220,23 @@ export const calendarData: {
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-05-25", "Sun"),
     },
+    projectPoster: {
+      type: "assignment",
+      title: "Project: Poster",
+      link: SiteLinks.assignmentsProjectTop.href,
+      date: verifyCalendarDate("2025-05-30", "Fri"),
+    },
     projectFinalPrototype: {
       type: "assignment",
       title: "Project: Final Prototype",
       link: SiteLinks.assignmentsProjectTop.href,
       date: verifyCalendarDate("2025-06-01", "Sun"),
     },
-    projectPoster: {
+    projectPresentation: {
       type: "assignment",
-      title: "Project: Poster",
+      title: "Project: Presentation",
       link: SiteLinks.assignmentsProjectTop.href,
-      date: verifyCalendarDate("2025-05-30", "Fri"),
+      date: verifyCalendarDate("2025-06-03", "Tue"),
     },
     projectShowcase: {
       type: "assignment",

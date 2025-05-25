@@ -88,13 +88,21 @@ export const SiteLinks = {
     href: "/assignments/project/#revised-prototype",
     anchor: "Revised Prototype",
   },
+  assignmentsProjectPoster: {
+    href: "/assignments/project/#poster",
+    anchor: "Poster",
+  },
   assignmentsProjectFinalPrototype: {
     href: "/assignments/project/#final-prototype",
     anchor: "Final Prototype",
   },
-  assignmentsProjectFinalPosterPresentationShowcase: {
-    href: "/assignments/project/#poster-presentation-and-showcase",
-    anchor: "Poster, Presentation, and Showcase",
+  assignmentsProjectPresentation: {
+    href: "/assignments/project/#presentation",
+    anchor: "Presentation",
+  },
+  assignmentsProjectPosterShowcase: {
+    href: "/assignments/project/#poster-showcase",
+    anchor: "Poster Showcase",
   },
   assignmentsProjectDesignStatusReports: {
     href: "/assignments/project/#design-status-reports",
