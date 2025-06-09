@@ -28,10 +28,12 @@ export const CalendarDateLecture: React.FunctionComponent<{
 }> = ({ calendarDate, lectureCalendarItem, calendarItems }) => {
   const [expanded, setExpanded] = React.useState<boolean>(
     ((): boolean => {
-      const dateCalendar = parseCalendarDate(calendarDate);
-      const dateNow = Date.now();
+      // const dateCalendar = parseCalendarDate(calendarDate);
+      // const dateNow = Date.now();
+      //
+      // return differenceInCalendarDays(dateCalendar, dateNow) >= 0;
 
-      return differenceInCalendarDays(dateCalendar, dateNow) >= 0;
+      return true;
     })(),
   );
 
